@@ -12,6 +12,7 @@ spec:
       labels:
         app: django-app
     spec:
+      serviceAccountName: jarvis-svc-acct
       containers:
         - name: django-app-port
           image: jinseung0327/django:0.0.1

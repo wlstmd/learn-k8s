@@ -1,0 +1,17 @@
+apiVersion: eksctl.io/v1alpha5
+kind: ClusterConfig
+
+metadata:
+  name: test-cluster
+  region: ap-northeast-2
+
+nodeGroups:
+  - name: ng-1
+    instanceType: m5.large
+    desiredCapacity: 1
+  - name: ng-2
+    instanceType: m5.large
+    desiredCapacity: 1
+
+# cmd eksctl create cluster -f aws_cluster.yml
+# cmd eksctl delete cluster test-cluster
