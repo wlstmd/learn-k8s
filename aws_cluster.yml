@@ -7,10 +7,10 @@ metadata:
 
 nodeGroups:
   - name: ng-1
-    instanceType: m5.large
+    instanceType: m2.micro
     desiredCapacity: 1
   - name: ng-2
-    instanceType: m5.large
+    instanceType: m2.micro
     desiredCapacity: 1
 
 # cmd eksctl create cluster -f aws_cluster.yml
