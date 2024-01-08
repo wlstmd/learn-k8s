@@ -1,0 +1,6 @@
+# my-values.yaml
+# ref: https://github.com/bitnami/charts/tree/main/bitnami/mysql
+auth:
+  rootPassword: "StrongPassword"
+  username: "user"
+  password: "password"
