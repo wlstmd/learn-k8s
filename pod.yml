@@ -25,3 +25,5 @@ spec:
     protocol: TCP
     port: 80
     targetPort: http-web-svc
+
+# minikube service nginx-service

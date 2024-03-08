@@ -2,15 +2,15 @@ apiVersion: eksctl.io/v1alpha5
 kind: ClusterConfig
 
 metadata:
-  name: test-cluster
+  name: learn-k8s-cluster
   region: ap-northeast-2
 
 nodeGroups:
   - name: ng-1
-    instanceType: m2.micro
+    instanceType: m5.large
     desiredCapacity: 1
   - name: ng-2
-    instanceType: m2.micro
+    instanceType: m5.large
     desiredCapacity: 1
 
 # cmd eksctl create cluster -f aws_cluster.yml
